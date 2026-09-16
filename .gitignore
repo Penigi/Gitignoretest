@@ -60,9 +60,23 @@ compile_commands.json
 # vcpkg
 vcpkg_installed/
 
-# debug information files
+# Debug information files
 *.dwo
 
-# test output & cache
+# Test output & cache
 Testing/
 .cache/
+
+# Visual Studio
+.vs/
+
+# VS Code settings
+.vscode/
+
+# Environment / secrets
+.env
+secrets.json
+
+# Windows generated files
+Thumbs.db
+desktop.ini
